@@ -33,9 +33,15 @@ print(safada_size)
 # FORMAT STRINGS =========================================
 
 flotao = 82.25454654564684685
+posicao = 2.3123123
+n = 1 
 format_ = "{} {}".format(alice, safada)
+format_ = "{:.2f}".format(flotao)   
 formatao = "%s %s" %(alice, safada)
 formatao_float = "%.2f" %(flotao)
+formatao = "%f %d" %(flotao, n)
+formatao = "Posicao: %.2f" %(posicao)
+formatao = f'Posicao {posicao:.2f}'
 
 #print(soma_int)
 #print(mult)
