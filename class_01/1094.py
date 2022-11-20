@@ -9,11 +9,11 @@ for i in range(n_testes):
     #tipo = str(input())
     n = int(n)
     t += n
-    if tipo == "c":
+    if tipo == "C":
         coelhos += n
-    elif tipo == "r":
+    elif tipo == "R":
         ratos += n
-    elif tipo == "s":
+    elif tipo == "S":
         sapos += n
 perc_c = (coelhos/t)*100
 perc_r = (ratos/t)*100
