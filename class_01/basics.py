@@ -41,7 +41,7 @@ formatao = "%s %s" %(alice, safada)
 formatao_float = "%.2f" %(flotao)
 formatao = "%f %d" %(flotao, n)
 formatao = "Posicao: %.2f" %(posicao)
-formatao = f'Posicao {posicao:.2f}'
+
 
 #print(soma_int)
 #print(mult)
